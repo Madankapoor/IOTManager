@@ -5,14 +5,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-        <jsp:include page="/WEB-INF/views/partials/header.jsp"/>		
-		
+        <jsp:include page="/WEB-INF/views/partials/header.jsp"/>
 		<style>
 		<%@include file="/WEB-INF/resources/core/css/login.css" %>
 		</style>
-		 
-		
-      
     </head>
     <body>
         <jsp:include page="/WEB-INF/views/partials/nonauthnavbar.jsp"/> 
@@ -35,7 +31,7 @@
                 <input type="password" id="inputPassword" class="form-control" placeholder="Password" required  name="password">
                 <div id="remember" class="checkbox">
                     <label>
-                        <input type="checkbox" value="remember-me"> Remember me
+                        <input type="checkbox" value="remember-me"> Try Remember me
                     </label>
                 </div>
                  <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />

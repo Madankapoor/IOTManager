@@ -63,5 +63,5 @@
 	</c:if>
                 
    <c:if test = "${companyId==null}">   
-                <h1 class="well">Select a company or add a company</h1> </c:if>
+                <h1 class="well">Select a vehicle from above bar or add a vehicle </h1> </c:if>
                 

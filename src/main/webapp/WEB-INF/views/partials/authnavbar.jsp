@@ -46,7 +46,7 @@
 	            	<li class="divider"></li>
 	            	<li >
 	            	<a class="text-center" href="/IOTManager/addcompany" class="text-center">
-	            	addcompany <span class="glyphicon glyphicon-plus  pull-left">
+	            	Add vehicle <span class="glyphicon glyphicon-plus  pull-left">
 	            	</a>
 	            	</li>
 	            	<li >

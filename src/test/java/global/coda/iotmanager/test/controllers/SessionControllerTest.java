@@ -1,4 +1,4 @@
-package global.coda.iotmanager.tests.controller;
+package global.coda.iotmanager.test.controllers;
 
 import static org.junit.Assert.*;
 
@@ -8,9 +8,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import global.coda.iotmanager.controllers.SessionController;
-
-public class SessionControllerTest extends SessionController {
+public class SessionControllerTest {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -35,17 +33,12 @@ public class SessionControllerTest extends SessionController {
 
 	@Test
 	public void testGetRegister() {
-		fail("Not yet implemented");
+		
 	}
 
 	@Test
 	public void testPostRegister() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetMain() {
-		fail("Not yet implemented");
+		
 	}
 
 }

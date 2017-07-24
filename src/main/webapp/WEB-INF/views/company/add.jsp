@@ -27,7 +27,7 @@
 
             <form:form class="form-horizontal" role="form" method="post" modelAttribute="company" action="addcompany">
                 
-                <h2>Add Company  Form</h2>
+                <h2>Add Vehicle </h2>
                
                 <div class="form-group">
                     <label for="name" class="col-sm-3 control-label">Name</label>
@@ -38,19 +38,14 @@
                 </div>
               
                 <div class="form-group">
-                    <label  class="col-sm-3 control-label"> Address Line 1</label>
+                    <label  class="col-sm-3 control-label"> Name Plate</label>
                     <div class="col-sm-9">
                         <input path="" type="text"  name="add1" placeholder="" class="form-control" />
                     </div>
                 </div>
                
                 
-               <div class="form-group">
-                    <label  class="col-sm-3 control-label">Address Line 2</label>
-                    <div class="col-sm-9">
-                        <input type="text"  name="add2" placeholder="" class="form-control">
-                    </div>
-                </div>
+              
                
                 
                 <div class="form-group">
